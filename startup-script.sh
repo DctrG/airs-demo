@@ -10,10 +10,10 @@ echo "[$(date)] Starting startup script..."
 # Exit on any error
 set -ex
 
-# Install prerequisites
-# echo "[$(date)] Installing prerequisites..."
-# apt-get update
-# apt-get install -y python3-pip python3-venv git
+Install prerequisites
+echo "[$(date)] Installing prerequisites..."
+apt-get update
+apt-get install -y python3-pip python3-venv git
 
 # Create and activate virtual environment
 echo "[$(date)] Setting up virtual environment..."
